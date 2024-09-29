@@ -5,7 +5,6 @@ use crate::utils::transaction::get_balance_of;
 use borsh::{from_slice, to_vec};
 use borsh_derive::{BorshDeserialize, BorshSerialize};
 use ethers::types::U256;
-use ethers_core::k256::elliptic_curve::consts::U25;
 use ethers_providers::{Http, Provider};
 use planetscale_driver::Database;
 use serde::{Deserialize, Serialize};
