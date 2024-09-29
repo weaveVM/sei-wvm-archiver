@@ -1,5 +1,5 @@
 {
-    "name": "SEI",
+    "name": "SEI V2 Mainnet",
     "network_chain_id": 1329,
     "wvm_chain_id": 9496,
     "network_rpc": "https://evm-rpc.sei-apis.com",

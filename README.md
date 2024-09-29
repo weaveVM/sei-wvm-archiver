@@ -7,6 +7,33 @@
 ## About
 WeaveVM Archiver is an ETL archive pipeline for EVM networks. It's the simplest way to interface with WeaveVM's permanent data feature without smart contract redeployments.
 
+## About SEI Network
+The [SEI V2 Mainnet](https://blog.sei.io/sei-v2-the-first-parallelized-evm/) is a decentralized network built on top of a hyper optimized execution layer, making it the first the first parallelized EVM Blockchain .
+
+## sei-wvm-archiver node configuration
+
+- node endpoint: https://sei.wvm.network
+- wvm-archiver node version: [v0.2.4](https://github.com/weaveVM/wvm-archiver/releases/tag/v0.2.4)
+
+### Node configuration
+
+```json
+{
+    "name": "SEI V2 Mainnet",
+    "network_chain_id": 1329,
+    "wvm_chain_id": 9496,
+    "network_rpc": "https://evm-rpc.sei-apis.com",
+    "wvm_rpc": "https://testnet-rpc.wvm.dev",
+    "block_time": 0.395,
+    "start_block": 105246036,
+    "archiver_address": "0x2D76d7B140d078C575eAAD109168c606FE9d506C",
+    "backfill_address": "0x55dA54ee977FBe734d5250F0558bc4B2FBe36b2a",
+    "archive_pool_address": "0x0000000000000000000000000000000000000000"
+}
+```
+
+# Generic documentation content from [wvm-archiver](https://github.com/weaveVM/wvm-archiver) repo
+
 ### WeaveVM Archiver Usage
 
 WeaveVM Archiver is the ideal choice if you want to:
