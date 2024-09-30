@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://wvm.dev">
-    <img src="https://raw.githubusercontent.com/weaveVM/.github/main/profile/bg.png">
+    <img src="https://github.com/weaveVM/sei-wvm-archiver/blob/main/sei.png?raw=true">
   </a>
 </p>
 
