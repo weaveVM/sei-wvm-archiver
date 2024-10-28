@@ -1,4 +1,4 @@
-name = "wvm-archiver"
+name = "sei-wvm-archiver"
 
 assets = [
     ".env"
